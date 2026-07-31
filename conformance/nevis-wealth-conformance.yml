@@ -1,0 +1,13 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.neviswealth.com/
+notes: >-
+  Nevis publishes no OpenAPI/public API surface, so no cross-cutting API standards
+  (OAuth2/OIDC/RFC 9457/pagination/etc.) can be derived. The only published
+  conformance/compliance claim found is a SOC 2 Type I certification stated on the
+  company website.
+standards:
+- id: soc2-type-i
+  conforms: true
+  evidence: "Company homepage states the platform is 'SOC 2 Type I certified'."
+  source: https://www.neviswealth.com/

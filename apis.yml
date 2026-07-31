@@ -1,8 +1,27 @@
 aid: nevis-wealth
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nevis-wealth.png
 name: Nevis Wealth
-description: 'Nevis Wealth is a company surfaced as a portfolio company of iconiq-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Nevis (Nevis Wealth) is an AI platform built for wealth management firms, giving
+  financial advisors an AI assistant that automates administrative work — AI-generated
+  meeting summaries, automatic task capture from client interactions, intelligent
+  meeting-prep briefs, unified AI search across advisory systems, personalized client
+  email drafting, and account-opening automation — so advisors spend more time with
+  clients and less on paperwork. The company is used by advisory firms including United
+  Capital, GC Wealth, Apollon Wealth, and Dodds Wealth, is SOC 2 Type I certified, and
+  has raised $40M in venture funding. Nevis does not currently publish a public API,
+  developer portal, SDKs, or developer documentation.
 url: https://raw.githubusercontent.com/api-evangelist/nevis-wealth/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- Wealth Management
+- Wealth Tech
+- Financial Advisors
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.neviswealth.com/
+- type: Support
+  url: mailto:info@neviswealth.com
+- type: TermsOfService
+  url: https://www.neviswealth.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.neviswealth.com/privacy-policy/
+- type: Compliance
+  url: https://www.neviswealth.com/
+- type: Conformance
+  url: conformance/nevis-wealth-conformance.yml
+- type: DomainSecurity
+  url: security/nevis-wealth-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
