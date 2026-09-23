@@ -1,0 +1,29 @@
+# Front Door AI Index — nevis-wealth — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: nevis-wealth
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.neviswealth.com
+  final_host: www.neviswealth.com
+  ownership: own
+  owner: nevis-wealth
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 21
+  host_score: 21
+  density: 22.75
+  words: 923
+  tiers:
+    agentic: 0
+    core: 19
+    model: 2
+  ambiguous: 4
+  top_terms:
+    AI: 19
+    automation: 3
+    Anthropic: 1
+    OpenAI: 1
+    smart: 1
